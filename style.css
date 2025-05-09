@@ -1,0 +1,32 @@
+@media (max-width: 767.98px) {
+  /* Remove labels in mobile */
+  label {
+    display: none !important;
+  }
+
+  /* Stack controls more compactly */
+  .custom-control-panel .row {
+    flex-wrap: wrap;
+  }
+
+  .custom-control-panel .col-md-auto {
+    flex: 0 0 48%;
+    max-width: 48%;
+    margin-bottom: 10px;
+  }
+
+  /* Make buttons share a row in mobile */
+  #toggle-hawkers, #clear-map {
+    width: 100%;
+  }
+
+  /* Ensure full-height map on mobile */
+  #map {
+    height: 100vh !important;
+  }
+
+  .custom-control-panel {
+    padding: 10px;
+  }
+}
+
